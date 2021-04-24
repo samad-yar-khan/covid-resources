@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resources",
+  "info": {
+    "name": "Resource"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Descirption": {
+      "type": "text"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "category": {
+      "via": "resource",
+      "collection": "categories"
+    }
+  }
+}
