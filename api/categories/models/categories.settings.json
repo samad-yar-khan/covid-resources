@@ -15,8 +15,8 @@
       "type": "string"
     },
     "resource": {
-      "collection": "resource",
       "via": "category",
+      "collection": "resource",
       "dominant": true
     }
   }

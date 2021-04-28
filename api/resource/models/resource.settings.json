@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "resources",
   "info": {
-    "name": "Resource"
+    "name": "Resource",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -21,8 +22,11 @@
       "type": "string"
     },
     "category": {
-      "via": "resource",
-      "collection": "categories"
+      "collection": "categories",
+      "via": "resource"
+    },
+    "active": {
+      "type": "boolean"
     }
   }
 }
