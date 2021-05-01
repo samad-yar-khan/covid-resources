@@ -13,20 +13,32 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Descirption": {
       "type": "text"
     },
     "Location": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "category": {
       "collection": "categories",
       "via": "resource"
     },
-    "active": {
-      "type": "boolean"
+    "verified": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "phone": {
+      "type": "biginteger",
+      "unique": true,
+      "required": false
+    },
+    "verified_at": {
+      "type": "datetime"
     }
   }
 }
