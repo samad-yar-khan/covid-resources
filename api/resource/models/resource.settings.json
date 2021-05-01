@@ -12,14 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "Descirption": {
+    "description": {
       "type": "text"
     },
-    "Location": {
+    "location": {
       "type": "string",
       "required": true
     },
@@ -41,8 +41,8 @@
       "type": "datetime"
     },
     "votes": {
-      "type": "biginteger",
-      "default": "0"
+      "type": "integer",
+      "default": 0
     }
   }
 }
