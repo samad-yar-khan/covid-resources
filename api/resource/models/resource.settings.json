@@ -39,6 +39,10 @@
     },
     "verified_at": {
       "type": "datetime"
+    },
+    "votes": {
+      "type": "biginteger",
+      "default": "0"
     }
   }
 }
